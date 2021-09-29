@@ -1,0 +1,25 @@
+.brandInfoConatiner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.brandInfoConatiner > h1 {
+  font-size: 42px;
+}
+
+.brandInfoConatiner > .link {
+  width: 100%;
+}
+
+.milkLab {
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgb(190, 190, 190);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-top: 50px;
+}

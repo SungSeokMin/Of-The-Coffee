@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.headerContainer > img {
-  width: 250px;
-  height: 150px;
+.headerContainer img {
+  width: 500px;
+  height: 300px;
 }

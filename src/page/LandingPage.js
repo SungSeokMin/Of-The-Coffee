@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../css/Lading.module.css';
 import Almond from './Almond';
 import Coconut from './Coconut';
@@ -7,6 +7,10 @@ import Oat from './Oat';
 import Soy from './Soy';
 
 const LandingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className={styles.ladingContainer}>
       <Almond />

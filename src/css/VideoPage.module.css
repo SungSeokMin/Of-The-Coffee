@@ -1,0 +1,9 @@
+.videoConatiner {
+  width: 100%;
+  height: 850px;
+}
+
+.videoConatiner > .video {
+  width: 100%;
+  height: 100%;
+}
