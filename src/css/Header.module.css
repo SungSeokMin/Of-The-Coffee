@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: #502d1d;
+  font-family: 'Oswald', sans-serif;
 }
 .headerContainer > .link {
   color: rgb(255, 255, 255);

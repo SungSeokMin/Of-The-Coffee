@@ -9,13 +9,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="innerContainer">
-        <Switch>
-          <Route path="/" exact component={Home} />
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <div className="innerContainer">
           <Route path="/milkLab" exact component={LandingPage} />
-        </Switch>
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </Switch>
     </div>
   );
 }
