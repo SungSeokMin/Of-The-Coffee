@@ -5,8 +5,8 @@ import styles from '../css/Header.module.css';
 const Header = () => {
   return (
     <div className={styles.headerContainer}>
-      <Link to="/">
-        <img src="/images/logo.png" alt="로고" />
+      <Link to="/" className={styles.link}>
+        <span>OF THE COFFEE</span>
       </Link>
     </div>
   );

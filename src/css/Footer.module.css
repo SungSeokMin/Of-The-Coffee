@@ -3,5 +3,53 @@
   height: 250px;
   display: flex;
   margin-top: 20px;
-  border: 1px solid red;
+}
+
+.footerContainer a {
+  text-decoration: none;
+  color: #242424;
+}
+
+.footerContainer div {
+  margin: 5px 0;
+}
+
+.footerContainer h2 {
+  color: #502d1d;
+}
+
+.footerContainer span {
+  color: #242424;
+}
+
+.footerContainer > .companyInfo,
+.contactInfo {
+  color: #5e5e5e;
+}
+
+.footerContainer > .companyInfo {
+  width: 100%;
+}
+
+.footerContainer > .companyInfo > .underLine {
+  width: 190px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #502d1d;
+}
+
+.footerContainer > .contactInfo {
+  width: 100%;
+}
+
+.footerContainer > .contactInfo > .underLine {
+  width: 120px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #502d1d;
+}
+
+.footerContainer > .contactInfo .instagramIcon {
+  width: 30px;
+  height: 30px;
 }

@@ -1,12 +1,13 @@
 .headerContainer {
   width: 100%;
-  height: 200px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #502d1d;
 }
-
-.headerContainer img {
-  width: 500px;
-  height: 300px;
+.headerContainer > .link {
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  text-decoration: none;
 }
