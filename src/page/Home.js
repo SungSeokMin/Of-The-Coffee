@@ -1,16 +1,16 @@
 import React from 'react';
 import AboutCompany from './AboutCompany';
-import BrandInfoPage from './BrandInfoPage';
 import Footer from './Footer';
-import VideoPage from './VideoPage';
+import ImageSlide from './ImageSlide';
+import Items from './Items';
 
 const Home = () => {
   return (
     <>
-      <VideoPage />
       <div className="innerContainer">
         <AboutCompany />
-        <BrandInfoPage />
+        <ImageSlide />
+        <Items />
         <Footer />
       </div>
     </>

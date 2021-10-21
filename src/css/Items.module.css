@@ -1,0 +1,56 @@
+.itemsContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 97px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.itemsContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.itemsContainer > .recipe {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  bottom: 32px;
+  right: 0;
+}
+
+.itemContainer > .recipe h1 {
+  text-decoration: none;
+}
+
+.itemsContainer > .recipe img {
+  width: 100%;
+  height: 100%;
+}
+
+.itemsContainer > .recipe > .recipeFont {
+  width: 100%;
+}
+
+.itemsContainer > .recipe > .recipeFont > div {
+  font-size: 28px;
+  text-align: center;
+}
+
+.itemContainer {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemContainer > img {
+  width: 100%;
+}
+
+.itemContainer > span {
+  font-size: 28px;
+}
