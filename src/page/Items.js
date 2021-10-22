@@ -18,8 +18,8 @@ const Items = () => {
     <div className={styles.itemsContainer}>
       {items.map((item) => {
         return (
-          <Link to={item.name}>
-            <Item item={item} key={item.id} />
+          <Link to={item.name} key={item.id}>
+            <Item item={item} />
           </Link>
         );
       })}
