@@ -35,9 +35,13 @@ const Footer = () => {
           <span>OPEN AM 10:00 ~ CLOSE PM 06:00 / SAT.SUN.HOLIDAY CLOSED</span>
         </div>
         <div>
-          <Link to="/">
+          <a
+            href="https://www.instagram.com/milklabkorea/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsInstagram className={styles.instagramIcon} />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

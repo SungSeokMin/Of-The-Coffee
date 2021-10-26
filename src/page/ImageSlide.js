@@ -6,13 +6,18 @@ const ImageSlide = () => {
   const [slideNum, setSlideNum] = useState(0);
 
   useEffect(() => {
-    console.log(slideNum);
+    let timeout;
+
     if (slideNum > TOTAL_IMAGE) setSlideNum(0);
     else {
-      setTimeout(() => {
+      timeout = setTimeout(() => {
         setSlideNum(slideNum + 1);
       }, 2000);
     }
+
+    return () => {
+      clearTimeout(timeout);
+    };
   }, [slideNum]);
   return (
     <div className={styles.slideContainer}>
