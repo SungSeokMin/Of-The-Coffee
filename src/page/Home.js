@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutCompany from './AboutCompany';
-import Footer from './Footer';
 import ImageSlide from './ImageSlide';
 import Items from './Items';
 
@@ -11,7 +10,6 @@ const Home = () => {
         <AboutCompany />
         <ImageSlide />
         <Items />
-        <Footer />
       </div>
     </>
   );
