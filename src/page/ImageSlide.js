@@ -21,7 +21,7 @@ const ImageSlide = () => {
   }, [slideNum]);
   return (
     <div className={styles.slideContainer}>
-      <img src={`/images/imageSlide${slideNum}.jpg`} alt="dd" />
+      <img src={`/images/imageSlide${slideNum}.jpg`} alt="이미지 슬라이드" />
     </div>
   );
 };

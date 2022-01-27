@@ -9,8 +9,6 @@ const items = [
   { id: 2, name: 'Macadamia', src: '/images/MACADAMIA.png' },
   { id: 3, name: 'Oat', src: '/images/OAT.png' },
   { id: 4, name: 'Soy', src: '/images/SOY.png' },
-  { id: 5, name: 'Dairy', src: '/images/DAIRY.png' },
-  { id: 6, name: 'Lactose', src: '/images/LACTOSE.png' },
 ];
 
 const Items = () => {
@@ -23,14 +21,6 @@ const Items = () => {
           </Link>
         );
       })}
-      <div className={styles.recipe}>
-        <Link to="/recipe">
-          <img src="/images/imageSlide2.jpg" alt="레시피" />
-        </Link>
-        <div className={styles.recipeFont}>
-          <div>Recipe</div>
-        </div>
-      </div>
     </div>
   );
 };
